@@ -1,1 +1,2 @@
-from stats import word_count
+from stats import cheese
+from stats import toast
