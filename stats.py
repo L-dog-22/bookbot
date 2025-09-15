@@ -4,7 +4,7 @@ Char_dict = {}
 with open("/home/l_dog/workspace/github.com/L-dog-22/bookbot/books/frankenstein.txt") as get_book_text:
     file_contents = get_book_text.read(None)
     
-
+#for i in word_list redundant use word_count instead 
 word_list = file_contents.split()
 word_count = len(word_list)
 for i in word_list:
